@@ -1,7 +1,3 @@
 #!/usr/bin/python3
-def safe_print_integer(value):
-    try:
-        print("{:d}".format(value))
-        return True
-    except BaseException:
-        return False
+def raise_exception_msg(message=""):
+    raise NameError(message)
